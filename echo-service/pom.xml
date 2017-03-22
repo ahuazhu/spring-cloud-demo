@@ -14,17 +14,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.ahuazhu</groupId>
-            <artifactId>echo-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-client</artifactId>
         </dependency>
     </dependencies>
 

@@ -1,10 +1,2 @@
 server:
   port: 8080
-
-
-samplepong:
-  ribbon:
-    DeploymentContextBasedVipAddresses: echo-service
-    NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
-    ReadTimeout: 5000
-    MaxAutoRetries: 2

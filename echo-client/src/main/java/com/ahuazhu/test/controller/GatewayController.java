@@ -1,11 +1,8 @@
 package com.ahuazhu.test.controller;
 
-import com.ahuazhu.test.service.EchoServiceX;
+import com.ahuazhu.test.service.EchoService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by zhengwenzhu on 2017/3/22.
@@ -14,11 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class GatewayController {
 
     @Autowired
-    private EchoServiceX echoService;
+    private EchoService echoService;
 
-    @RequestMapping(value = "/test", method = RequestMethod.POST)
-    public String test(@RequestBody String message) {
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    public String test(@RequestParam("msg") String msg) {
 
-        return echoService.echo(message);
+        return "hello " + echoService.echo(msg);
     }
 }

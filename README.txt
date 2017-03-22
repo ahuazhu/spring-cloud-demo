@@ -5,7 +5,7 @@
 * 服务调用      
                
                              ┏━━━━━━━━━━━━━┓                           ┏━━━━━━━━━━━━━━┓
---------- ahuazhu ---------->┃             ┃ --------- ahuazhu ------> ┃              ┃
-                             ┃ echo-client ┃                           ┃ echo-service ┃
-<--- hello world ahuazhu ----┃             ┃ <---- world ahuazhu ----- ┃              ┃
+--------- ahuazhu ---------->┃              ┃ --------- ahuazhu ------> ┃              ┃
+                             ┃ echo-client  ┃                           ┃ echo-service ┃
+<--- hello world ahuazhu ----┃              ┃ <---- world ahuazhu ----- ┃              ┃
                              ┗━━━━━━━━━━━━━┛                           ┗━━━━━━━━━━━━━━┛

@@ -18,9 +18,9 @@ spring-web
 6. echo-client向客户端返回经过包装后的结果，服务调用关系如下：
                
                              ┏━━━━━━━━━━━━━┓                           ┏━━━━━━━━━━━━━━┓
---------- ahuazhu ---------->┃               ┃ --------- ahuazhu ------> ┃               ┃
-                             ┃ echo-client   ┃                           ┃ echo-service  ┃
-<--- hello world ahuazhu ----┃               ┃ <---- world ahuazhu ----- ┃               ┃
+--------- ahuazhu ---------->┃              ┃ --------- ahuazhu ------> ┃               ┃
+                             ┃ echo-client  ┃                           ┃ echo-service  ┃
+<--- hello world ahuazhu ----┃              ┃ <---- world ahuazhu ----- ┃               ┃
                              ┗━━━━━━━━━━━━━┛                           ┗━━━━━━━━━━━━━━┛
 
 Usage:
